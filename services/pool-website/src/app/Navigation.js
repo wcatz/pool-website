@@ -149,7 +149,19 @@ export default function Navigation() {
                             </div>
                         </div>
                         <div className="ml-auto px-2 pt-2 pb-3 space-y-1">
+
                             {schema.navItems.map(navItem => {
+                                if (navItem.url === '/delegate') {
+                                    return (
+                                        <button
+                                            type="button"
+                                            onClick={handleDelegate}
+                                            className="font-medium text-white hover:text-gray-300 flex items-center"
+                                        >
+                                            <span className={navItem.icon ? "mr-2" : null}>{navItem.name}</span>{navItem.icon ? <Icon type={navItem.icon} /> : null}
+                                        </button>
+                                    )
+                                }
 
                                 return (
                                     <Link href={navItem.url}>
