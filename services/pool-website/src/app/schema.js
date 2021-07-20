@@ -1,7 +1,9 @@
 export default {
     "gallery": {
         "title": "Gallery"
-      },
+    },    "community": {
+        "title": "Community"
+    },
     site: {
         title: "Star Forge"
     },
@@ -146,85 +148,4 @@ export default {
             }
         ]
     },
-    roadmap: {
-        title: "Roadmap",
-        description: "Here you can follow my journey being involved with the Cardano community as well as my plans for the future.",
-        sprints: [
-            {
-                name: "July 2021",
-                items: [
-                    { name: "[Armada Alliance 2.0](https://armada-alliance.com) Release", completed: true },
-                ]
-            },
-            {
-                name: "June 2021",
-                items: [
-                    { name: "[Armada Alliance 2.0](https://armada-alliance.com) Development", completed: true }
-                ]
-            },
-            {
-                name: "May 2021",
-                items: [
-                    { name: "Increased pledge to 25k", completed: true, date: "May 15" },
-                    { name: "[Armada Alliance 2.0](https://armada-alliance.com) Development", completed: true }
-                ]
-            },
-            {
-                name: "April 2021",
-                items: [
-                    { name: "Launch first version of [Armada Alliance website](https://armada-alliance.com)", completed: true, date: "Apr 30" },
-                    { name: "Initiate the [Armada Alliance](https://adapools.org/alli/armada-alliance/9) together with [PIADA](https://ada-pi.io)", completed: true, date: "Apr 24" },
-                    { name: "Release another [YouTube Video](https://www.youtube.com/watch?v=6Ao98KdBACI) on how to [mint a collection of NFT's](https://developers.cardano.org/en/development-environments/native-tokens/native-tokens/) together with [PIADA](https://ada-pi.io)", completed: true, date: "Apr 24" },
-                    { name: "Increase the pool pledge from 5k to 6k ADA", completed: true, date: "Apr 23" },
-                    { name: "Release a [YouTube Video](https://www.youtube.com/watch?v=OeOliguGn7Y) on how to [mint NFT's](https://developers.cardano.org/en/development-environments/native-tokens/native-tokens/) together with [PIADA](https://ada-pi.io)", completed: true, date: "Apr 12" },
-                    { name: "Setup the initial pool website (pool.sublayer.io)", completed: true, date: "Apr 10" },
-                    { name: "Ordered an Intel NUC to be prepared for (possible) increased hardware requirements caused by Alonzo", completed: true, date: "Apr 10" },
-                    { name: "Created a [pull request](https://github.com/SinglePoolAlliance/Registration/pull/194) to get listed on [singlepoolalliance.net](https://singlepoolalliance.net)", completed: true, date: "Apr 10" },
-                    { name: "Added a [status page](https://stats.uptimerobot.com/kM7VDHnRxR) using [uptimerobot.com]() monitoring the uptime of the stake pool on relaynode1.sublayer.io:6001", completed: true, date: "Apr 7" },
-                    { name: "Created NFT's on mainnet together with [PIADA](https://ada-pi.io)", completed: true, date: "Apr 3" },
-                    { name: "Successfully launched [SBLYR pool](https://pool.pm/8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8) on mainnet", completed: true, date: "Apr 3" }
-                ]
-            },
-            {
-                name: "March 2021",
-                items: [
-                    { name: "Setup a stake pool on testnet", completed: true, date: "March 27" },
-                    { name: "Received hardware", completed: true, date: "March 27" },
-                    { name: "Joined [ADA.pi discord](https://ada-pi.io)", completed: true, date: "March 21" },
-                    { name: "Ordered hardware", completed: true, date: "March 20" },
-                    { name: "Joined [NASEC discord](https://adapools.org/pool/aa8b94010cd3c7199be1d619079c184a59e6f1ad930926bc2bd38579)", completed: true, date: "March 17" },
-                    { name: "Minted first [native asset](https://developers.cardano.org/en/development-environments/native-tokens/native-tokens/) ([SublayerCoin](https://cardanoassets.com/sublayercoin-862)) on mainnet", completed: true, date: "March 15" },
-                    { name: "Minted first [native asset](https://developers.cardano.org/en/development-environments/native-tokens/native-tokens/) on testnet", completed: true, date: "March 15" },
-                ]
-            }
-        ]
-    },
-    community: {
-        description: "I would like to give special thanks to the following Stake Pool Operators for their support.",
-        pools: [
-            {
-                name: "PIADA",
-                url: "https://ada-pi.io",
-                authors: "Wael Ivie / Tony",
-                image: "piada.png"
-            },
-            {
-                name: "SBLYR",
-                url: "https://adamantium.online",
-                authors: "Olivier",
-                image: "otg.png"
-            },
-            {
-                name: "BERRY",
-                url: "https://nasec.co.uk/cardano",
-                image: "nasec.png"
-            },
-            {
-                name: "CODER",
-                url: "https://cardano.dantup.com",
-                image: "coder.png"
-            },
-
-        ]
-    }
 }

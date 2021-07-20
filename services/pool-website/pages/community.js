@@ -1,6 +1,6 @@
 import Head from "next/head";
-import CommunityPage from "../src/app/CommunityPage";
 import schema from "../src/app/schema"
+import CommunityPage from "../src/app/CommunityPage";
 
 export default function Community(props) {
     return (

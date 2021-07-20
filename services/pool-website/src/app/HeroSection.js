@@ -19,9 +19,9 @@ export default function HeroSection() {
   })
 
   const items = [
-    { name: "Hardware", value: data => "1x Apple Mac Mini M1 16GB, 2x Raspberry Pi 4 8GB" },
-    { name: "Ticker", value: data => data.db_ticker },
     { name: "Pool ID", value: data => "c825168836c5bf850dec38567eb4771c2e03eea28658ff291df768ae" },
+    { name: "Ticker", value: data => data.db_ticker },
+    { name: "Blocks", value: data => data.blocks_lifetime },
     { name: "Epoch Fee", value: data => toAda(data.tax_fix) },
     { name: "Margin Fee", value: data => `${parseFloat(data.tax_ratio, 10) * 100}%` },
     { name: "Pledge", value: data => toAda(data.pledge) },
@@ -79,7 +79,7 @@ export default function HeroSection() {
                     </span>
                 {/* Heroicon name: solid/chevron-right */}
                 <svg
-                  className="ml-2 w-5 h-5 text-gray-500"
+                  className="ml-2 w-5 h-5 text-primary-500"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
                   fill="currentColor"
@@ -115,11 +115,11 @@ export default function HeroSection() {
                 })}
               </div>
               <div className="flex items-center mt-4 space-x-2">
-                <a href="https://pool.pm/c825168836c5bf850dec38567eb4771c2e03eea28658ff291df768ae" target="_blank" className="text-white border-b border-white py-1">
-                  View on pool.pm
+                <a className="bg-transparent hover:bg-green-700 text-green-700 font-semibold hover:text-white py-2 px-4 border border-green-700 hover:border-transparent rounded" href="https://pool.pm/c825168836c5bf850dec38567eb4771c2e03eea28658ff291df768ae" target="_blank">
+                  pool.pm
                 </a>
-                <a href="https://adapools.org/pool/c825168836c5bf850dec38567eb4771c2e03eea28658ff291df768ae" target="_blank" className="text-white border-b border-white py-1">
-                  View on adapools.org
+                <a className="bg-transparent hover:bg-green-700 text-green-700 font-semibold hover:text-white py-2 px-4 border border-green-700 hover:border-transparent rounded" href="https://adapools.org/pool/c825168836c5bf850dec38567eb4771c2e03eea28658ff291df768ae" target="_blank">
+                  adapools.org
                 </a>
               </div>
             </div>

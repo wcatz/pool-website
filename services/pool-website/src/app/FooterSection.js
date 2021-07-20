@@ -25,11 +25,12 @@ export default function FooterSection() {
                     />
                     <div className="ml-2 font-bold">
                     Star Forge ⚡ <span className="font-light tracking-wide"></span>
-                    <script>document.getElementById("year").innerHTML = new Date().getFullYear();</script>
+                    
                     </div>
                 </div>
             </div>
         </footer>
+        
 
     )
 }

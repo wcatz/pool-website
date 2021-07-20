@@ -47,17 +47,6 @@ function SpecsSection() {
                         })}
                     </div>
                 </div>
-                <div className="mt-16 space-y-4 flex flex-col items-center overflow-hidden">
-                    <div className="flex justify-center space-x-4">
-                        <div className="bg-cover bg-center w-24 h-24 md:w-40 md:h-40 rounded-lg shadow" style={{ backgroundImage: `url(/gallery/18650-powerwall.jpg)` }} />
-                        <div className="bg-cover bg-center w-24 h-24 md:w-40 md:h-40 rounded-lg shadow" style={{ backgroundImage: `url(/setup2.webp)` }} />
-                        <div className="bg-cover bg-center w-24 h-24 md:w-40 md:h-40 rounded-lg shadow" style={{ backgroundImage: `url(/setup3.webp)` }} />
-                        <div className="bg-cover bg-center w-24 h-24 md:w-40 md:h-40 rounded-lg shadow" style={{ backgroundImage: `url(/setup4.webp)` }} />
-                    </div>
-                    <div className="text-gray-500 text-xs">
-                        Pictures taken while setting up for the first time
-                    </div>
-                </div>
 
             </div>
         </div>
