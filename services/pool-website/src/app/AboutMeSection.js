@@ -74,7 +74,7 @@ const specifications = [
         icon: Internet,
         name: "100 Mbps, 8 ms latency"
     },
-     {
+    {
         icon: Solar,
         name: "Solar Powered"
     },
@@ -88,16 +88,32 @@ function SpecsSection() {
                 <div className="text-center">
                     <h2 className="text-base font-semibold tracking-wider text-primary-700 uppercase">About me</h2>
                     <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-                        My name is WCat
+                        My name is Wayne
+                    </p>
+                    <div className="mt-10 flex justify-center">
+                        <div className="bg-cover bg-center w-40 h-40 rounded-full shadow"
+                            style={{ backgroundImage: `url(https://avatars.githubusercontent.com/u/3747031?v=4)` }} />
+                    </div>
+                    <p className="mt-2 text-2xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-3xl">
+                        aka, WCat
                     </p>
                     <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-                        I'm the operator of the Star Forge Pool. I'm currently located in New Hampshire. I enjoy helping others learn how to run cardano-node on efficient ARM64 devices
+                        I'm the operator of the Star Forge Pool. I enjoy helping others learn how to run cardano-node on efficient ARM64 devices.
+                        You can learn how to run an active relay that uses 4 watts of power below.
                     </p>
+                    <div className="my-4">
+                    <a className="bg-transparent hover:bg-green-700 text-green-700 font-semibold hover:text-white py-2 px-4 border border-green-700 hover:border-transparent rounded"
+                       href="https://docs.armada-alliance.com/learn/intermediate-guide/pi-pool-tutorial/pi-node">Image & Guide</a>
+                    </div>
+                    
+                    <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+                        I have been operating a node since before Shelley with the goal of building an off the grid pool that would work with Starlink or some other type of next generation
+                        sattelite internet.
+                    </p>
+                    <h2 className="mt-4 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">First Starlink Block</h2>
+                    <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">Huge thunderstorm took out power and both internet connections. Hooked up Starlink and my cores wireguard tunnel connected to a vps relay I have. Made a block through Starlinks gnat!</p>
                 </div>
-                <div className="mt-10 flex justify-center">
-                    <div className="bg-cover bg-center w-40 h-40 rounded-full shadow" 
-                         style={{ backgroundImage: `url(https://avatars.githubusercontent.com/u/3747031?v=4)` }} />
-                </div>
+
             </div>
         </div>
     )

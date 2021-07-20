@@ -1,7 +1,8 @@
 export default {
     "gallery": {
         "title": "Gallery"
-    },    "community": {
+    }, 
+    "community": {
         "title": "Community"
     },
     site: {
@@ -32,6 +33,11 @@ export default {
             name: "GitHub",
             icon: "GitHub",
             url: "https://github.com/wcatz"
+        },
+        {
+            name: "Telegram",
+            icon: "Telegram",
+            url: "https://t.me/wcatz"
         },
         {
             name: "Twitter",
