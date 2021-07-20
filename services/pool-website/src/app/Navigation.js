@@ -21,9 +21,9 @@ export default function Navigation() {
 
     return (
         <div className="bg-gray-900"
-             style={{ 
-             backgroundImage: `url("/star-background.jpg")` 
-                    }}>
+            style={{
+                backgroundImage: `url("/star-background.jpg")`
+            }}>
             <div className="pt-6 pb-6">
                 <nav
                     className="relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6"
@@ -43,7 +43,7 @@ export default function Navigation() {
                                     </a>
                                 </Link>
                                 <div className="ml-4 text-white text-2xl font-bold leading-none">
-                                Star Forge ⚡{" "}
+                                    Star Forge ⚡{" "}
                                     <span className="font-light ml-0.5 tracking-wide">[OTG]</span>
                                 </div>
                             </div>
