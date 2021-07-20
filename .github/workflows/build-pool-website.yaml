@@ -20,9 +20,9 @@ jobs:
     - name: Build static website
       working-directory: ./services/website
       run: |
-        yarn install
-        yarn build
-        yarn export
+        npm install
+        npm run build
+        npm run export
         git config --global user.name "${{ secrets.CI_USERNAME }}"
         git config --global user.email "${{ secrets.CI_EMAIL }}"
         PAT64=$(echo ":${{ secrets.PERSONAL_ACCESS_TOKEN }}" | base64)
