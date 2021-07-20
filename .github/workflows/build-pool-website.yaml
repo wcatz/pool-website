@@ -18,7 +18,7 @@ jobs:
       with:
         node-version: 14.x
     - name: Build static website
-      working-directory: ./services/website
+      working-directory: ./services/pool-website
       run: |
         npm install
         npm run build
