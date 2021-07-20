@@ -21,9 +21,9 @@ export default function Navigation() {
 
     return (
         <div className="bg-gray-900"
-            style={{
-                backgroundImage: `url("/star-background.jpg")`
-            }}>
+             style={{ 
+             backgroundImage: `url("/star-background.jpg")` 
+                    }}>
             <div className="pt-6 pb-6">
                 <nav
                     className="relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6"
@@ -43,7 +43,7 @@ export default function Navigation() {
                                     </a>
                                 </Link>
                                 <div className="ml-4 text-white text-2xl font-bold leading-none">
-                                    Star Forge ⚡{" "}
+                                Star Forge ⚡{" "}
                                     <span className="font-light ml-0.5 tracking-wide">[OTG]</span>
                                 </div>
                             </div>
@@ -83,7 +83,7 @@ export default function Navigation() {
                                     return (
                                         <button
                                             type="button"
-
+                                            onClick={handleDelegate}
                                             className="font-medium text-white hover:text-gray-300 flex items-center"
                                         >
                                             <span className={navItem.icon ? "mr-2" : null}>{navItem.name}</span>{navItem.icon ? <Icon type={navItem.icon} /> : null}
@@ -150,19 +150,6 @@ export default function Navigation() {
                         </div>
                         <div className="ml-auto px-2 pt-2 pb-3 space-y-1">
                             {schema.navItems.map(navItem => {
-                                console.log(navItem)
-
-                                if (navItem.url === '/delegate') {
-                                    return (
-                                        <button
-                                            type="button"
-                                            onClick={handleDelegate}
-                                            className="font-medium text-white hover:text-gray-300 flex items-center"
-                                        >
-                                            <span className={navItem.icon ? "mr-2" : null}>{navItem.name}</span>{navItem.icon ? <Icon type={navItem.icon} /> : null}
-                                        </button>
-                                    )
-                                }
 
                                 return (
                                     <Link href={navItem.url}>
