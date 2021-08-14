@@ -20,7 +20,7 @@ export default function Navigation() {
     }
 
     return (
-        <div className="bg-gray-900"
+        <div className=""
             style={{
                 backgroundImage: `url("/star-background.jpg")`
             }}>
@@ -44,7 +44,6 @@ export default function Navigation() {
                                 </Link>
                                 <div className="ml-4 text-white text-2xl font-bold leading-none">
                                     Star Forge ⚡{" "}
-                                    <span className="font-light ml-0.5 tracking-wide">[OTG]</span>
                                 </div>
                             </div>
                             <div className="mr-2 flex items-center md:hidden">
@@ -166,7 +165,7 @@ export default function Navigation() {
                                     <Link href={navItem.url}>
                                         <a
                                             target={navItem.target}
-                                            className="block px-3 py-2 rounded-md text-base flex items-center font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
+                                            className="block px-3 py-2 rounded-md text-base flex items-center font-medium text-gray-700 hover:text-gray-900 dark:text-gray-300 hover:bg-gray-50"
                                         >
                                             <span className={navItem.icon ? "mr-2" : null}>{navItem.name}</span>{navItem.icon ? <Icon type={navItem.icon} /> : null}
                                         </a>

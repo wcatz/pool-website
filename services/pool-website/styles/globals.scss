@@ -5,8 +5,8 @@
 .react-images__view-image {margin: 0 auto;}
 .react-photo-gallery--gallery img {
     border-radius: 6px;
-    border: 1px sold rgb(0, 0, 0);
-    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1),0 2px 4px -1px rgba(0,0,0,0.06);
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0 4px 6px -1px rgba(255, 255, 255, 0.1),0 2px 4px -1px rgba(255, 255, 255, 0.06);
 }
 
 [style*="--aspect-ratio"] > :first-child {

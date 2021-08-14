@@ -10,16 +10,16 @@ export default {
     },
     navItems: [
         {
-            name: "Delegate",
-            url: "/delegate"
-        },
-        {
             name: "Gallery",
             url: "/gallery"
         },
         {
             name: "Community",
             url: "/community"
+        },
+        {
+            name: "Delegate",
+            url: "/delegate"
         },
         {
             name: "Status",
@@ -56,7 +56,7 @@ export default {
         },
         {
             icon: "Storage",
-            name: "Apple NVMe SSD, 160 GB"
+            name: "Apple NVMe SSD, 512 GB"
         },
         {
             type: "Divider",

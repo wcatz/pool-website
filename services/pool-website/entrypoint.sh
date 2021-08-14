@@ -2,7 +2,7 @@
 
 yarn install
 
-# yarn dev
+ yarn dev
 # yarn storybook
 
 echo "Press [CTRL+C] to stop.."

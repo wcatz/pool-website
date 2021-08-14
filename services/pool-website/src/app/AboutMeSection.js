@@ -83,19 +83,19 @@ const specifications = [
 function SpecsSection() {
 
     return (
-        <div className="py-12 bg-white">
+        <div className="py-12 bg-white dark:bg-gray-800">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center">
-                    <h2 className="text-base font-semibold tracking-wider text-primary-700 uppercase">About me</h2>
-                    <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-                        My name is Wayne
+                    <h2 className="font-semibold tracking-wider text-green-900 dark:text-primary-600 uppercase">Single Pool Operator</h2>
+                    <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-600 dark:text-gray-300 sm:text-4xl">
+                        You know me, </p><p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-600 dark:text-gray-300 sm:text-4xl">I'm down with OTG.
                     </p>
                     <div className="mt-10 flex justify-center">
                         <div className="bg-cover bg-center w-40 h-40 rounded-full shadow"
                             style={{ backgroundImage: `url(https://avatars.githubusercontent.com/u/3747031?v=4)` }} />
                     </div>
-                    <p className="mt-2 text-2xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-3xl">
-                        aka, WCat
+                    <p className="mt-2 text-2xl leading-8 font-extrabold tracking-tight text-gray-600 dark:text-gray-300 sm:text-3xl">
+                        WCat
                     </p>
                     <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
                         I'm the operator of the Star Forge Pool. I enjoy helping others learn how to run cardano-node on efficient ARM64 devices.
@@ -110,7 +110,7 @@ function SpecsSection() {
                         I have been operating a node since before Shelley with the goal of building an off the grid pool that would work with Starlink or some other type of next generation
                         sattelite internet.
                     </p>
-                    <h2 className="mt-4 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">First Starlink Block</h2>
+                    <h2 className="mt-4 text-3xl leading-8 font-extrabold tracking-tight text-gray-600 dark:text-gray-300 sm:text-4xl">First Starlink Block</h2>
                     <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">Huge thunderstorm took out power and both internet connections. Hooked up Starlink and my cores wireguard tunnel connected to a vps relay I have. Made a block through Starlinks gnat!</p>
                 </div>
 

@@ -59,6 +59,5 @@ export const photos = [
         src: "/gallery/victron-energy.jpg",
         width: 4,
         height: 3
-    },
-    
+    },   
 ];

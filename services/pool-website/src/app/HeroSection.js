@@ -26,7 +26,7 @@ export default function HeroSection() {
     { name: "Margin Fee", value: data => `${parseFloat(data.tax_ratio, 10) * 100}%` },
     { name: "Pledge", value: data => toAda(data.pledge) },
     { name: "Live stake", value: data => toAda(data.total_stake) },
-    { name: "Return of ADA", value: data => `${data.roa}%` },
+    { name: "Return of ADA", value: data => `${data.roa_lifetime}%` },
   ]
 
 
@@ -94,11 +94,17 @@ export default function HeroSection() {
               </a>
               <h1 className="mt-4 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:leading-none lg:mt-6 lg:text-5xl xl:text-6xl">
                 <span className="block">
-                  Let's decentralize
+                  Off The Grid ☀️📡
                 </span>
                 <span className="text-primary-600">Cardano</span>
-                <span className="text-white">{" "}together</span>
+                <span className="text-white">{" "}Stake Pool</span>
               </h1>
+              <p><span className="font-extrabold text-primary-600">SpaceX Starlink</span>
+              <span className="text-white">{" "}connected block producer.</span></p>
+              <span className="font-extrabold text-primary-600">Solar powered</span>
+              <span className="text-white">{" "}highly efficient aarch64 devops.</span>
+              <p><span className="font-extrabold text-primary-600">Opensource</span>
+              <span className="text-white">{" "}community member.</span></p>
               <div className="text-white mt-4 text-xs md:text-base">
                 {items.map(item => {
 

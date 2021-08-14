@@ -20,12 +20,12 @@ export default function GallerySection() {
     };
 
     return (
-<div className="bg-gray-50">
+<div className="bg-white dark:bg-gray-800">
     <div className="max-w-7xl mx-auto py-6 px-4 text-center sm:px-6 lg:px-8 lg:py-10">
         <div className="space-y-8 sm:space-y-12">
             <div className="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
-                <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">🌟 The Star Forge ⚡</h2>
-                <p>Solar powered from just two 300 watt panels in series and a lithium ion battery bank with cells from reclaimed laptop batteries.</p>
+                <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-gray-300 dark:text-white sm:text-4xl">🌟 Star Forge ⚡</h2>
+                <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">Your mission if you choose to accept it. Be a part of truly decentralizing the Cardano blockchain. Bare metal single pools operators are crucial. My mission was to prove it was possible to run resilient self sufficient pool operations in remote areas.</p>
                 <Gallery photos={photos} onClick={openLightbox} />
                 <ModalGateway>
                     {viewerIsOpen ? (
